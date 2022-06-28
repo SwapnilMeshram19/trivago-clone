@@ -109,39 +109,358 @@
           "site":"Booking.com",
           "price":"11,535",
           "freeCancellation":"true",
-          "freeBreakfast": "true"
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/626"
         },
         {
           "title":"Our lowest price",
           "site":"Hotels.com",
           "price":"11,534",
           "freeCancellation":"false",
-          "freeBreakfast": "true"
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/452"
+
         },
         {
           "title":"Our lowest price",
           "site":"Hotels.com",
           "price":"11,534",
           "freeCancellation":"false",
-          "freeBreakfast": "false"
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/452"
+
         },
         {
           "title":"Our lowest price",
           "site":"Hotels.com",
           "price":"11,534",
           "freeCancellation":"true",
-          "freeBreakfast": "false"
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/452"
 
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"Hotels.com",
+          "price":"11,534",
+          "freeCancellation":"true",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/452"
         }
         
       ],
-      "map": [19.076, 72.8777],
       "freeCancelation": true,
       "payProp": true,
       "freeBreakfast": true,
       "price": [],
       "location": "Mumbai",
       "locality":"Bandra East",
+      "address": "city center"
+    },
+    {
+      "name": "Sahara Star",
+      "rating": 5,
+      "img": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/72/40/724012036.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/52/69/526920752.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/52/78/527899728.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/10/77/1077257490.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/72/40/724012028.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/35/30/353008114.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/11/67/116740736.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/12/04/120486726.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/37/25/372551346.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/30/05/300524506.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/33/20/332052700.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/30/19/301916176.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/37/25/372551344.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/26/26/262625194.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/11/01/110119258.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/35/30/353008200.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/52/69/526920754.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/30/02/300200844.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/11/01/110119254.jpeg"
+      ],
+      "about": "Offering four food & beverage establishments and hundreds of rooms, Sahara Star is known for its distinctive, star-shaped dome. It houses a 4,000 square foot Marine Aquarium, and has the world's only private dining room within an aquarium. All guest rooms at this hotel are equipped with modern amenities such as flat-screen TVs, motorized curtains, and glass bathrooms. Mood lighting is standard, and luxury suites are available. The hotel's services include airline reservations, babysitting, courier services, currency exchange, and laundry. Guests can enjoy a full gymnasium while at this property, or stroll around the tropical lagoon. The hotel's restaurants include The Earth Plate, which has truly global cuisine. The Ocean private dining room is located within an aquarium and has an impressively large menu that can be personalised. Sahara Star is located just metres from Mumbai's international airport. Juhu Beach is less than five kilometres away. The iconic Gateway of India is 22 kilometres south of this property.",
+      "review": {
+        "location": 8.6,
+        "room": 8.4,
+        "services": 8.0,
+        "facilities": 8.3,
+        "vom": 8.2
+      },
+      "dist": 3.3,
+      "reviewNumber": 1975,
+      "allAmenities": {
+        "hotel": [
+          "24-hour reception",
+          "24-hour room service",
+          "Airport shuttle",
+          "Breakfast",
+          "Business centre",
+          "Car park",
+          "Cashless payment",
+          "Computer with Internet",
+          "Concierge",
+          "Conference rooms",
+          "Convenience store",
+          "Doctor on site",
+          "Express check-in",
+          "Free WiFi",
+          "Gym",
+          "Hand sanitizer provided",
+          "Hotel bar",
+          "Hotel safe",
+          "Housekeeping",
+          "Lift",
+          "Masks provided",
+          "New safety protocols",
+          "Night club",
+          "Outdoor swimming pool",
+          "Pets allowed",
+          "Pool",
+          "Pool bar",
+          "Restaurant",
+          "Room service",
+          "Safe distance",
+          "Spa",
+          "Temperature screening",
+          "WiFi in public areas"
+        ],
+        "room": [
+          "Air conditioning",
+          "Electric kettle",
+          "Flatscreen TV",
+          "Free WiFi (rooms)",
+          "Ironing board",
+          "Openable windows",
+          "Safe",
+          "Satellite TV",
+          "Sitting area",
+          "Television",
+          "WiFi"
+        ],
+        "spa": ["Beauty salon", "Massage", "Sauna", "Steam room", "Whirlpool / Hot tub"],
+        "accessability": ["Accessible bathroom", "Accessible hotel", "Wheelchair accessible"],
+        "children": ["Childcare", "Cot"]
+      },
+      "cleanlinessPolicies":[
+          "New safety protocols",
+          "Regular disinfection",
+          "Safe distance",
+          "Hand sanitizer provided",
+          "Temprature screening",
+          "Cashless payment",
+          "Online check-in/check-out",
+          "Masks provied",
+          "Room service",
+          "Response protocol"
+        ],
+      "deals": [
+        {
+          "title":"Recommended deal",
+          "site":"makemytrip.com",
+          "price":"8,310",
+          "freeCancellation":"true",
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
+        },
+        {
+          "title":"Our lowest price",
+          "site":"makemytrip.com",
+          "price":"11,534",
+          "freeCancellation":"false",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"makemytrip.com",
+          "price":"8,310",
+          "freeCancellation":"true",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"agoda.com",
+          "price":"11,682",
+          "freeCancellation":"true",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"Trip.com",
+          "price":"11,681",
+          "freeCancellation":"false",
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/634"
+
+        }
+        
+      ],
+      "freeCancelation": true,
+      "payProp": true,
+      "freeBreakfast": true,
+      "price": [],
+      "location": "Mumbai",
+      "locality":"Domestic Airport",
+      "address": "city center"
+    },
+    {
+      "name": "Hotel Milan International",
+      "rating": 3,
+      "img": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672398.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672410.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/52/78/527899728.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672412.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672416.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672418.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/37/09/370916454.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/37/09/370916456.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672470.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672474.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672472.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672476.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672488.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/41/50/415014968.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672402.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/41/50/415014966.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672424.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672428.jpeg",
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672446.jpeg"
+      ],
+      "about": "Located in Santa Cruz West of Mumbai, Hotel Milan International hotel is just a ten-minute walk to Santa Cruz train station and within three miles to the University of Mumbai. Free private parking and rooms with Wi-Fi access are offered in this hotel. All rooms are air-conditioned and fitted with private bathrooms with free toiletries. Each comes with an LCD TV and work desk. Some rooms add a mini-fridge, while upgraded rooms feature separate seating areas, wardrobe, and modern glass bathroom. The 24-hour front desk offers concierge service, luggage storage, laundry/ironing service, and tourist assistance. Banquet halls and a business centre are also available on-site. Local Indian cuisine along with authentic Punjab dishes are served at the Spicy Kitchen Restaurant for breakfast, lunch, and dinner. Other dining options are a ten-minute walk away, which include Shamia Restaurant and Three Wise Monkeys Cafe. Hotel Milan International hotel is within three miles to Chhatrapati Shivaji International Airport and the ISKCON Temple.",
+      "review": {
+        "location": 6.0,
+        "room": 6.0,
+        "services": 5.5,
+        "facilities": 5.3,
+        "vom": 5.5
+      },
+      "dist": 3.9,
+      "reviewNumber": 1142,
+      "allAmenities": {
+        "hotel": [
+          "24-hour reception",
+          "24-hour room service",
+          "Airport shuttle",
+          "Breakfast",
+          "Business centre",
+          "Car park",
+          "Cashless payment",
+          "Computer with Internet",
+          "Concierge",
+          "Conference rooms",
+          "Convenience store",
+          "Doctor on site",
+          "Express check-in",
+          "Free WiFi",
+          "Gym",
+          "Hand sanitizer provided",
+          "Hotel bar",
+          "Hotel safe",
+          "Housekeeping",
+          "Lift",
+          "Masks provided",
+          "New safety protocols",
+          "Outdoor swimming pool",
+          "Pets allowed",
+          "Pool",
+          "Pool bar",
+          "Restaurant",
+          "Room service",
+          "Safe distance",
+          "Spa",
+          "Temperature screening",
+          "WiFi in public areas"
+        ],
+        "room": [
+          "Air conditioning",
+          "Cable TV",
+          "Free WiFi (rooms)",
+          "Ironing board",
+          "Safe",
+          "Satellite TV",
+          "Sitting area",
+          "Television",
+          "WiFi"
+        ],
+        "spa": ["Beauty salon", "Massage", "Sauna", "Steam room", "Whirlpool / Hot tub"],
+        "accessability": ["Accessible parking"],
+        "children": []
+      },
+      "cleanlinessPolicies":[
+          "New safety protocols",
+          "Regular disinfection",
+          "Safe distance",
+          "Hand sanitizer provided",
+          "Temprature screening",
+          "Cashless payment",
+          "Online check-in/check-out",
+          "Masks provied",
+          "Room service",
+          "Response protocol"
+        ],
+      "deals": [
+        {
+          "title":"Recommended deal",
+          "site":"agoda.com",
+          "price":"1,477",
+          "freeCancellation":"true",
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
+        },
+        {
+          "title":"Our lowest price",
+          "site":"makemytrip.com",
+          "price":"1,561",
+          "freeCancellation":"false",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"agoda.com",
+          "price":"1,477",
+          "freeCancellation":"true",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"agoda.com",
+          "price":"1,477",
+          "freeCancellation":"true",
+          "freeBreakfast": "false",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
+
+        },
+        {
+          "title":"Our lowest price",
+          "site":"agoda.com",
+          "price":"1,477",
+          "freeCancellation":"false",
+          "freeBreakfast": "true",
+          "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
+
+        }
+        
+      ],
+      "freeCancelation": true,
+      "payProp": true,
+      "freeBreakfast": true,
+      "price": [],
+      "location": "Mumbai",
+      "locality":"Domestic Airport",
       "address": "city center"
     }
   ]
