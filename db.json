@@ -1541,6 +1541,94 @@
     }
     
     
+  ],
+  "Top_Cities_Detail":[
+    {
+      "id":"150",
+      "Image":"ttps://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/98/64981_v33.jpeg",
+      "Location":"Hotels in Mumbai",
+      "number":"9650 Hotels",
+      "price":"₹1,477"
+    },
+    {
+      "id":"151",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/96/64967_v41.jpeg",
+      "Location":"Hotels in Delhi",
+      "number":"17747 Hotels",
+      "price":"₹2,427"
+    },
+    {
+      "id":"152",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/97/64975_v41.jpeg",
+      "Location":"Hotels in Bengaluru",
+      "number":"12567 Hotels",
+      "price":"₹3,031"
+    },
+    {
+      "id":"153",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/97/64971_v39.jpeg",
+      "Location":"Hotels in Shimla",
+      "number":"4209 Hotels",
+      "price":"₹3,943"
+    },
+    {
+      "id":"154",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/73/91/73918_v39.jpeg",
+      "Location":"Hotels in Udaipur",
+      "number":"4083 Hotels",
+      "price":"₹3,211"
+    },
+    {
+      "id":"155",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/82/91/82910_v37.jpeg",
+      "Location":"Hotels in Lonavla",
+      "number":"5371 Hotels",
+      "price":"₹1,1746"
+    }
+  ],
+  "Top Destination":[
+    {
+      "id":"156",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/13/84/13847_v10.jpeg",
+      "Location":"Hotels in Majorca",
+      "number":"70978 Hotels",
+      "price":"₹1,1630"
+    },
+    {
+      "id":"156",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/11/95/119571_v62.jpeg",
+      "Location":"Hotels in Boracacy",
+      "number":"1261 Hotels",
+      "price":"₹5,658"
+    },
+    {
+      "id":"157",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/16/06/16060_v72.jpeg",
+      "Location":"Hotels in Mahe",
+      "number":"1386 Hotels",
+      "price":"₹19,122"
+    },
+    {
+      "id":"158",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/0/216_v27.jpeg",
+      "Location":"Hotels in USA",
+      "number":"21,42,429 Hotels",
+      "price":"₹9,711"
+    },
+    {
+      "id":"159",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/64/93/64935_v73.jpeg",
+      "Location":"Hotels in Himachal Pradesh",
+      "number":"23464 Hotels",
+      "price":"₹3,461"
+    },
+    {
+      "id":"160",
+      "Image":"https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_258,q_auto,w_258/categoryimages/21/27/21272_v71.jpeg",
+      "Location":"Hotels in Haute-Savoie",
+      "number":"45287 Hotels",
+      "price":"₹1,1811"
+    }
   ]
   
 }
