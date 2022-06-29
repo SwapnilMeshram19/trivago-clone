@@ -1,0 +1,121 @@
+/* navbar and footer part css */
+
+
+.Footer{
+    border:1px solid black;
+    background-color:#05131a;;
+    /* height:100px; */
+    color:white;
+  }
+  .SelectData{
+    width:340px;
+    height:50px;
+    border-radius:5px;
+    border-color: white;
+    background-color:#05131a;
+    margin:2px;
+    color:white;
+    font-family: 'Franklin Gothic Medium';
+     font-size: 15px;
+     margin-left:650px;
+     
+    
+  }
+  .Image{
+    width:30px;
+    height: 30px;
+    display:grid;
+    border-radius: 15px;
+  
+  }
+  .Image1{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin-left:230px;
+  
+   
+  }
+  .footer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border:1px solid black; */
+    margin-top:70px;
+  }
+  .footer1{
+    display: grid;;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+    /* border:1px solid black; */
+    margin-left:230px;
+    
+  
+  }
+  a{
+    color:white;
+    font-size: 14px;
+    text-decoration:none;
+  
+  }
+  
+  .footer2{
+    display: grid;;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+    line-height: 10px;
+    margin-left:100px;
+  
+  
+  
+  }
+  .footer3{
+    display: grid;;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+    margin-left:-10px;
+  
+  }
+  .navbar{
+    /* border:1px solid black; */
+    margin-bottom: 40px;
+    margin-top: 30px;;
+    color:black;
+    height:40px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  .navbar1{
+    display:flex;
+    gap:20px;
+    /* color:rgb(90, 88, 85); */
+    margin-left:140px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  
