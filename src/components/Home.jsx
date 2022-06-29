@@ -1,30 +1,111 @@
 import React, { useState,useEffect } from 'react'
 import './Home.css'
-import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import { useSelector,useDispatch} from 'react-redux'
-import { get } from '../Redux/action'
+import { get } from '../Redux/allData/action'
+import Carousel from './Carousel';
+import Calendar from 'react-calendar'
+import Popup from './Popup';
 
 const Home = () => {
-    const {data}=useSelector((store)=>store)
-  console.log(data)
+    const {data}=useSelector((store)=>store.AllData)
+//   console.log(data)
+
+//   {filteredArray ?  : data}
   const dispatch=useDispatch()
 
     useEffect(()=>{
         get(dispatch)
       },[])
 
+  // const[AllStays,setAllStays]=useState(false)
+  // const[Hotels,setHotels]=useState(false)
+  // const[House,setHouse]=useState(false)
+  // console.log(AllStays)
+      const[day1,setDay1]=useState(new Date())
+      const[day2,setDay2]=useState(new Date())
+
+      const da1=day1.getDay()
+      const da2=day2.getDay()
+
+      let showingDay1=''
+
+      if(da1 == 0){
+        showingDay1='Sun'
+      }else if(da1 == 1){
+        showingDay1='Mon'
+      }else if(da1 == 2){
+        showingDay1='Tue'
+      }else  if(da1 == 3){
+        showingDay1='Wed'
+      }else  if(da1 == 4){
+        showingDay1='Thr'
+      }else if(da1 == 5){
+        showingDay1='Fri'
+      }else if(da1 == 6){
+        showingDay1='Sat'
+      }
 
 
-    const [dateState, setDateState] = useState(new Date())
-    const changeDate = (e) => {
-        setDateState(e)
-        console.log(dateState)
+      let showingDay2=''
+
+      if(da2 == 0){
+        showingDay2='Sun'
+      }else if(da2 == 1){
+        showingDay2='Mon'
+      }else if(da2 == 2){
+        showingDay2='Tue'
+      }else  if(da2 == 3){
+        showingDay2='Wed'
+      }else  if(da2 == 4){
+        showingDay2='Thr'
+      }else if(da2 == 5){
+        showingDay2='Fri'
+      }else if(da2 == 6){
+        showingDay2='Sat'
+      }
+
+   
+
+    const[calendarStatus,setCalendarStatus]=useState(false)
+    const[popup,setPopup]=useState(false)
+
+    const[Children,setChildren]=useState(2)
+
+    const ChangeChildren=(value)=>{
+        console.log(value)
+        setChildren(Children+value)
+        console.log(value)
     }
-    console.log(new Date())
-    console.log(new Date().getYear())
+
+    const[adult,setAdult]=useState(2)
+
+    const ChangeAdultAge=(value)=>{
+        console.log(value)
+        setAdult(adult+value)
+        console.log(value)
+    }
+
+    const[Room,setRoom]=useState(1)
+
+    const ChangeRoom=(value)=>{
+        console.log(value)
+        setRoom(Room+value)
+        console.log(value)
+    }
+    const Number_Of_Guests=adult+Children
     return (
         <>
+        { calendarStatus ?  (
+             <div className='Calendar_Box'>
+             < Calendar onChange={setDay1}  value={day1}/>
+              < Calendar  onChange={setDay2} value={day2} />
+             </div>
+        ): ''}
+
+              { popup ? < Popup adult={adult} Children={Children} Room={Room} 
+              ChangeAdultAge={ChangeAdultAge} ChangeChildren={ChangeChildren} ChangeRoom={ChangeRoom} /> : ''}
+          
             <div style={{ width: '99vw', height: "8vh", border: "1px solid red" }}></div>
             <div className="below_Navbar_logo_container">
                 <div><img src="https://tse2.mm.bing.net/th?id=OIP.JSGmiGzRmDowBYk0KLyJAwHaCO&pid=Api&P=0&w=499&h=149" alt="" /></div>
@@ -49,28 +130,29 @@ const Home = () => {
                                 <option value="Mumbai">Mumbai</option>
                                 <option value="Kolkata">Kolkata</option>
                             </select>
-                        </div>
-                        <div>
-                            <div>
+                        </div >
+                        <div onClick={()=>setCalendarStatus(!calendarStatus)} >
+                            <div >
                                 <div><span class="material-symbols-outlined">calendar_month</span></div>
                                 <div className='check_in_out'>
                                     <p>Check in</p>
-                                    <p>Sun,24-5-2022</p>
+                                    <p>{showingDay1},{day1.getDate()}-{day1.getMonth()+1}-{day1.getFullYear()}</p>
                                 </div>
                                 <div className='check_in_out'>
-                                    <p>Check in</p>
-                                    <p>Sun,24-5-2022</p>
+                                    <p>Check Out</p>
+                                    <p>{showingDay2},{day2.getDate()}-{day2.getMonth()+1}-{day2.getFullYear()}</p>
 
                                 </div>
                             </div>
 
                         </div>
-                        <div>
+                       
+                        <div >
                            <div>
-                           <div><span class="material-symbols-outlined">group</span></div>
-                            <div className='check_in_out'>
-                                <p>!Room</p>
-                                <p>2Guests</p>
+                           <div onClick={()=>setPopup(!popup)}><span class="material-symbols-outlined">group</span></div>
+                            <div className='check_in_out' onClick={()=>setPopup(!popup)}>
+                                <p>{Room}Room</p>
+                                <p>{Number_Of_Guests}Guests</p>
                             </div>
                             <div ><button >Search</button></div>
                            </div>
@@ -95,8 +177,13 @@ const Home = () => {
 
             </div>
 
-            <div className='topDestination'>These top destinations are just a click away</div>
-            <div className='topDestinationcarouselBox'></div>
+            <div className='topDestination'><b>These top destinations are just a click away</b></div>
+            <div className='topDestinationSibling'><b>Top Cities</b><b>Top Destination</b></div>
+            <hr />
+            <div className='topDestinationcarouselBox'>
+                  
+             <Carousel data={data} />
+            </div>
 
             <div className="descreptionBox">
                 <div>
@@ -124,6 +211,25 @@ const Home = () => {
                     <h3>More Top Cities</h3>
                    <div>
                    <div>
+                        <ul>
+                        <li>Hotels in Pune</li>
+                        <li>Hotels in Kolkata</li>
+                        <li>Hotels in Amritsar</li>
+                        <li>Hotels in Nashik</li>
+                        <li>Hotels in Lansdowne</li>
+                        <li>Hotels in Candolim</li>
+                        <li>Hotels in Bhopal</li>
+                        <li>Hotels in Chail</li>
+                        <li>Hotels in Pahalgam</li>
+                        <li>Hotels in Ghaziabad</li>
+                        <li>Hotels in Aurangabad</li>
+                        <li>Hotels in Velha Goa</li>
+                        <li>Hotels in Zirakpur</li>
+                        <li>Hotels in Mysore</li>
+                        
+                        </ul>
+                    </div>
+                    <div>
                         <ul>
                         <li>Hotels in Pune</li>
                         <li>Hotels in Kolkata</li>
@@ -204,9 +310,31 @@ const Home = () => {
                         
                         </ul>
                     </div>
+                    <div>
+                        <ul>
+                        <li>trivago Argentina</li>
+                        <li>trivago Australia</li>
+                        <li>trivago Българи</li>
+                        <li>trivago Canada</li>
+                        <li>trivago Chile</li>
+                        <li>trivago Česko</li>
+                        <li>trivago Danmark</li>
+                        <li>trivago France</li>
+                        <li>trivago 香港</li>
+                        <li>trivago Ελλάδα</li>
+                        <li>trivago ישראל</li>
+                        <li>trivago 日本</li>
+                        <li>trivago Italia</li>
+                        <li>trivago India</li>
+                        
+                        </ul>
+                    </div>
                 </div>
                 </div>
              </div>
+
+             
+         
         </>
     )
 }
@@ -218,3 +346,6 @@ export default Home
 {/* <Calendar 
 value={dateState}
 onChange={changeDate}/> */}
+
+
+// F:\trivago clone\trivago-clone\src
