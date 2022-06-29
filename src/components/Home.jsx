@@ -3,7 +3,7 @@ import './Home.css'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import { useSelector,useDispatch} from 'react-redux'
-import { get } from '../Redux/action'
+import { get } from '../Redux/action.js'
 
 const Home = () => {
     const {data}=useSelector((store)=>store)

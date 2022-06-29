@@ -1,0 +1,113 @@
+@import 'react-rater/lib/react-rater.scss';
+
+
+.hotel-card{
+    width: 100%;
+}
+.react-rater-star{
+    display: inline-block;
+    color: rgb(252,158,21);
+}
+.card{
+    width: 100%;
+}
+.card>*{
+    display: inline-block;
+}
+
+.card>img{
+    width: 20%;
+    margin: 2px;
+    display: inline-block;
+}
+
+/* Details */
+
+.details{
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.details>h3{
+    margin: 0px;
+}
+
+.location>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+.location>span{
+    font-size: 0.875rem;
+    padding-left: 4px;
+}
+
+.excellent-review>*,.good-review>*{
+    display: inline-block;
+}
+.excellent-review>.review-span{
+    
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 1.125rem;
+    width: 2rem;
+    padding: 1px 6px;
+    background-color: green;
+    color: white;
+}
+
+.good-review>.review-span{
+    border: 1px solid rgb(252,158,21);
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    height: 1.125rem;
+    width: 2rem;
+    padding: 1px 6px;
+    background-color: rgb(252,158,21);
+    color: white;
+
+}
+.review>h5{
+    padding-left: 6px;
+}
+.review>span{
+    display: inline-block;
+    padding-left: 6px;
+    font-size: 0.875rem;
+}
+
+.booking-details{
+    display: inline-block;
+}
+
+.recommended{
+    background-color: rgb(241,248,234);
+}
+
+.recommended:hover{
+    border: 1px solid rgb(153,204,102);
+}
+
+.recommended>div>span,.per-price{
+    font-size: 0.815rem;
+}
+
+.cancellation>span,.per-price{
+    color: rgb(0,95,0);
+}
+
+.cancellation>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.per-price>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+
