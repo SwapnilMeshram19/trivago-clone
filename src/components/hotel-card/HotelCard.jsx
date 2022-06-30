@@ -22,7 +22,7 @@ const HotelCard = ({ hotel }) => {
   console.log(recommended);
   return (
     <div className="hotel-card">
-      <Card sx={{ maxWidth: "80%" }}>
+      <Card sx={{ maxWidth: "70%", marginBottom: "12px" }}>
         <div className="card">
           <img src={hotel.img[0]} />
 
@@ -36,26 +36,29 @@ const HotelCard = ({ hotel }) => {
                 />
               ))}
 
-              <span>Hotel</span>
+              <span>&nbsp;Hotel</span>
             </div>
             <div class="location">
               <LocationOnOutlinedIcon
                 style={{ color: "#565656", fontSize: "20px" }}
               />
               <span>{hotel.dist} km to City center</span>
+              <KeyboardArrowDownIcon style={{ float: "right" }} />
             </div>
-            <div>
+            <div className="review">
               {hotel.overallRating > 8 ? (
-                <div className="excellent-review review">
+                <div className="excellent-review">
                   <span className="review-span">{hotel.overallRating}</span>
                   <h5>Excellent</h5>
                   <span>({hotel.reviewNumber} review)</span>
+                  <KeyboardArrowDownIcon style={{ float: "right" }} />
                 </div>
               ) : (
-                <div className="good-review review">
+                <div className="good-review">
                   <span className="review-span">{hotel.overallRating}</span>
                   <h5>Good</h5>
                   <span>({hotel.reviewNumber} review)</span>
+                  <KeyboardArrowDownIcon style={{ float: "right" }} />
                 </div>
               )}
             </div>
@@ -66,67 +69,71 @@ const HotelCard = ({ hotel }) => {
                 <h6>{recommended.site}</h6>
                 <div class="cancellation">
                   <CheckCircleIcon
-                    style={{ color: "rgb(0,95,0)", fontSize: "15px" }}
+                    style={{ color: "rgb(0,95,0)", fontSize: "12px" }}
                   />
-                  <span style={{fontWeight: "700" }}>
-                    Free cancellation .
+                  <span style={{ fontWeight: "700" }}>
+                    &nbsp; Free cancellation .
                   </span>
                   <span>&nbsp;Pay at the property</span>
                 </div>
                 <div>
                   <div>
                     <div className="per-price">
-                      <span  style={{color: "black" }}>2 nights for </span>
+                      <span style={{ color: "black" }}>2 nights for </span>
                       <CurrencyRupeeIcon
                         style={{ color: "rgb(0,95,0)", fontSize: "12px" }}
                       />
-                      <span style={{fontWeight: "700" }}>{recommended.price}</span>
+                      <span style={{ fontWeight: "700" }}>
+                        {recommended.price}
+                      </span>
                     </div>
-                    <h3>
-                      <CurrencyRupeeIcon
-                        style={{ color: "rgb(0,95,0)", fontSize: "20px" }}
-                      />
-                      {recommended.price}
-                    </h3>
-                    <Button
-                      style={{
-                        backgroundColor: "rgb(0,95,0)",
-                        color: "#fbfffb",
-                        fontSize: "15px",
-                        textTransform: "none",
-                        fontWeight: "700",
-                      }}
-                      variant="contained"
-                      endIcon={<ChevronRightIcon />}
-                    >
-                      View Deal
-                    </Button>
+                    <div className="big-price">
+                      <div>
+                        <CurrencyRupeeIcon
+                          style={{ color: "rgb(0,95,0)", fontSize: "20px" }}
+                        />
+                        <h3>{recommended.price}</h3>
+                      </div>
+                      <Button
+                        className="view-deals-button"
+                        style={{
+                          backgroundColor: "rgb(2,128,0)",
+                          color: "#fbfffb",
+                          fontSize: "13px",
+                          textTransform: "none",
+                          fontWeight: "700",
+                          float: "right",
+                        }}
+                        variant="contained"
+                        endIcon={<ChevronRightIcon />}
+                      >
+                        View Deal
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <div>
-                <div>
+              <div className="other-offers">
+                <div className="recom">
+                  <h5>Agoda</h5>
                   <div>
-                    <h5>agoda</h5>
-                    <h3>
+                    <CurrencyRupeeIcon />
+                    <h3>{recommended.price}</h3>
+                  </div>
+                </div>
+                <div className="lowest-price">
+                  <div>
+                    <h5>Our lowest price:</h5>
+                    <div className="currency">
                       <CurrencyRupeeIcon />
-                      {recommended.price}
-                    </h3>
-                  </div>
-                  <div>
-                    <div>
-                      <h5>Our lowest price:</h5>
-                      <h3>
-                        <CurrencyRupeeIcon />
-                        {lowestPrice.price}
-                      </h3>
-                      <span>{lowestPrice.site}</span>
-                    </div>
-                    <div>
-                      <KeyboardArrowDownIcon />
+                      <h3>{lowestPrice.price}</h3>
+                      <span>&nbsp;{lowestPrice.site}</span>
                     </div>
                   </div>
+                  <KeyboardArrowDownIcon
+                    style={{ float: "right", marginTop: "8px" }}
+                  />
                 </div>
               </div>
             </div>

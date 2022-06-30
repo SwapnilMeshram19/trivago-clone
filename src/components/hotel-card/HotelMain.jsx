@@ -11,7 +11,7 @@ const HotelMain = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{backgroundColor:"rgb(243,244,245)"}}>
       {data.length == 0 ? (
         <>lodding</>
       ) : (
