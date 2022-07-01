@@ -13,17 +13,18 @@ import {Recently} from './Components1/Recently'
 import { BookingOverview } from './Components1/BookingOverview'
 import { HelpandSupport } from './Components1/HelpandSupport'
 import { Sliders } from './Components1/SlidersImages'
-
+import HotelCard from './components/hotel-card/HotelCard'
 
 
 function App() {
   return (
     <div className="App">
+      <HotelCard/>
      
     
      <Navbar />
      <Routes>
-     {/* <Route path = "#" element = {logo}></Route> */}
+     {/* <Route path = "#" element = {Home}>{<Home/>}</Route> */}
       <Route path = "Stays" element = {<Stays/>}></Route>
       <Route path = "Cars" element = {<Cars/>}></Route>
       <Route path = "Flights" element = {<Flights/>}></Route>
