@@ -6,9 +6,10 @@ import HotelMain from './components/hotel-card/HotelMain';
 function App() {
   return (
     <div>
-     {/* <Home /> */}
-     {/* <HotelMain/> */}
-     <HotelFilter/>
+     <Home />
+     
+     {/* <HotelFilter/>
+     <HotelMain/> */}
     </div>
   );
 }

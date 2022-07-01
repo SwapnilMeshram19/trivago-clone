@@ -11,54 +11,65 @@
   vertical-align: middle;
 }
 
-.vr{
-    width: 1px;
-    height: 60px;
-    margin-top: 15px;
-    background-color: rgb(219,221,225);
+.vr {
+  width: 1px;
+  height: 60px;
+  margin-top: 15px;
+  background-color: rgb(219, 221, 225);
 }
 /* Price Filter */
-.price-filter{
-    padding:10px 15px;
-    /* border-right: 1px solid rgb(219,221,225); */
-    border-radius: 10px;
+.price-filter {
+  padding: 10px 15px;
+  /* border-right: 1px solid rgb(219,221,225); */
+  border-radius: 10px;
 }
-.price-filter>div>*{
-    display: inline-block;
-    vertical-align: middle;
+.price-filter > div > * {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.price-filter>div{
-    margin-bottom: 10px;
+.price-filter > div {
+  margin-bottom: 10px;
 }
-.price{
-    float: right;
-
+.price {
+  float: right;
 }
-.price>*{
-    display: inline-block;
-    vertical-align: middle;
+.price > * {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Property Type */
-.property-type{
-    padding:10px 15px;
+.property-type {
+  padding: 10px 15px;
 }
 
-.property-type>div{
-    display:grid;
-    grid-template-columns:auto auto auto;
-    margin-top: 10px;
-    border: 1px solid rgb(219,221,225);
-    border-radius: 5px;
-    font-size: 00.875rem;
+.property-type > div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 10px;
+  border: 1px solid rgb(219, 221, 225);
+  border-radius: 5px;
+  font-size: 00.875rem;
 }
 
-.property-type>div>div{
-    padding:7px 16px;
-    cursor: pointer;
+.property-type > div > div {
+  padding: 7px 14px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
 }
 
+.active {
+  background-color: rgb(196, 227, 244);
+  color: rgb(0, 124, 194);
+  font-weight: 700;
+}
+/* .property-type>div>div:active{
+  background-color: rgb(196,227,244);
+  color: rgb(0,124,194);
+  font-weight: 700;
+} */
 
 /* Review Filter */
 .guest-rating {
@@ -67,23 +78,22 @@
   cursor: pointer;
   border-radius: 10px;
 }
-.guest-rating:hover{
-    background-color: rgb(249, 249, 249);
+.guest-rating:hover {
+  background-color: rgb(249, 249, 249);
 }
 .guest-rating > h5 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .guest-review-dropdown {
   position: absolute;
   width: 300px;
   z-index: 2;
-  top:85px;
+  top: 85px;
   left: -40px;
   display: none;
   background-color: white;
-  border: 1px solid rgb(204, 204, 204) ;
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 10px;
-
 }
 
 .guest-rating:hover .guest-review-dropdown {
@@ -93,6 +103,10 @@
   border: 1px solid rgb(204, 204, 204);
   padding: 10px;
   cursor: pointer;
+}
+
+.review-filter:hover {
+  background-color: rgb(242, 241, 241);
 }
 .review-filter > span {
   margin-left: 10px;
@@ -122,17 +136,16 @@
 }
 
 .select-filter > div {
-    width:65%;
-    height: 18px;
+  width: 65%;
+  height: 18px;
   font-size: 000.85rem;
   overflow: hidden;
   text-overflow: ellipsis;
-    
 }
-.select-filter>* {
-    display: inline-block;
-    vertical-align: middle;
-  }
+.select-filter > * {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 /* location filter */
 
@@ -140,28 +153,29 @@
   position: relative;
   padding: 10px 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
-.location-filter:hover{
-    background-color: rgb(249, 249, 249);
+.location-filter:hover {
+  background-color: rgb(249, 249, 249);
 }
-.location-filter>h5{
-    margin-bottom: 15px;
+.location-filter > h5 {
+  margin-bottom: 15px;
 }
 
 .location-dropdown {
   width: 300px;
   position: absolute;
-  border: 1px solid rgb(219,221,225);
+  border: 1px solid rgb(219, 221, 225);
   border-radius: 5px;
   padding: 15px;
   z-index: 10;
   left: -30px;
-  top:85px;
+  top: 85px;
   background-color: white;
   display: none;
 }
-.location-filter:hover .location-dropdown{
-    display: block;
+.location-filter:hover .location-dropdown {
+  display: block;
 }
 .location-dropdown > * {
   width: 100%;
@@ -173,43 +187,68 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.slider-text{
-    margin-top: 40px;
-    margin-bottom: 10px;
+.slider-text {
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
-.slider-text>*{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.slider-text>span{
-    float: right;
-    font-size: 00.875rem;
+.slider-text > * {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.location-filter-button{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.slider-text > span {
+  float: right;
+  font-size: 00.875rem;
 }
 
+.location-filter-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 /* More Filters */
-.more-filters{
-    padding: 10px 15px;
-    position: relative;
-    border-radius: 10px;
+.more-filters {
+  padding: 10px 15px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.more-filters:hover{
-    background-color: rgb(249, 249, 249);
+.more-filters > h5 {
+  margin-bottom: 15px;
 }
-.more-filters-dropdown{
-    position:absolute;
-    background-color: white;
-    top:85px;
-    left: -60px;
-    width: 500px;
-    z-index: 10;
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 5px;
-    padding: 5px;
+.more-filters:hover {
+  background-color: rgb(249, 249, 249);
 }
+.more-filters-dropdown {
+  position: absolute;
+  background-color: white;
+  top: 85px;
+  left: -150px;
+  width: 500px;
+  z-index: 10;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+}
+
+.more-filters:hover .more-filters-dropdown {
+  display: block;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.svg {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  align-items: center;
+  font-size: 0.875rem;
+  color: rgb(106, 106, 106);
+}
+
+
+

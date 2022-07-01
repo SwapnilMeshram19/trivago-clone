@@ -20,23 +20,23 @@ const HotelFilter = () => {
   const [doubleSlider, setdoubleSlider] = useState([0, 100]);
   const [leftValue, setLeftValue] = useState(2000);
   const [rightValue, setRightValue] = useState(42000);
-  const checkList = [
-    { title: "Free cancellation", icon: "Cancellation", id: "1" },
-    { title: "Free breakfast", icon: "Breakfast", id: "2" },
-    { title: "Pool", icon: "Pool", id: "3" },
-    { title: "Beach", icon: "Beach", id: "4" },
-    { title: "WiFi", icon: "Wifi", id: "5" },
-    { title: "Car park", icon: "CarPark", id: "6" },
-    { title: "Air conditioning", icon: "AirConditioner", id: "7" },
-    { title: "Restaurant", icon: "Restaurant", id: "8" },
-    { title: "Pet friendly", icon: "PetFriendly", id: "9" },
-    { title: "Family friendly", icon: "FamilyFriendly", id: "10" },
-    { title: "Pay at property", icon: "PayAtProperty", id: "11" },
-    { title: "Whirlpool/Hot tub", icon: "HotTub", id: "12" },
-    { title: "Spa", icon: "Spa", id: "13" },
-    { title: "Gym", icon: "Gym", id: "14" },
-    { title: "Wheelchair accessible", icon: "WheelChair", id: "5" },
-  ];
+  // const checkList = [
+  //   { title: "Free cancellation", icon: "Cancellation", id: "1" },
+  //   { title: "Free breakfast", icon: "Breakfast", id: "2" },
+  //   { title: "Pool", icon: "Pool", id: "3" },
+  //   { title: "Beach", icon: "Beach", id: "4" },
+  //   { title: "WiFi", icon: "Wifi", id: "5" },
+  //   { title: "Car park", icon: "CarPark", id: "6" },
+  //   { title: "Air conditioning", icon: "AirConditioner", id: "7" },
+  //   { title: "Restaurant", icon: "Restaurant", id: "8" },
+  //   { title: "Pet friendly", icon: "PetFriendly", id: "9" },
+  //   { title: "Family friendly", icon: "FamilyFriendly", id: "10" },
+  //   { title: "Pay at property", icon: "PayAtProperty", id: "11" },
+  //   { title: "Whirlpool/Hot tub", icon: "HotTub", id: "12" },
+  //   { title: "Spa", icon: "Spa", id: "13" },
+  //   { title: "Gym", icon: "Gym", id: "14" },
+  //   { title: "Wheelchair accessible", icon: "WheelChair", id: "5" },
+  // ];
   const mumbaiLocations = [
     { location: "City center", id: "1" },
     { location: "Andheri E", id: "2" },
@@ -56,11 +56,8 @@ const HotelFilter = () => {
   const handleDoubleSliderChange = (event, doubleSlider) => {
     const [left, right] = doubleSlider;
 
-    if (left > 0) {
-      let leftans = leftValue + left * 3;
-      setLeftValue(leftans);
-      console.log(left);
-    }
+    setLeftValue(left);
+    setRightValue(right);
 
     setdoubleSlider(doubleSlider);
     console.log(doubleSlider);
@@ -91,9 +88,9 @@ const HotelFilter = () => {
         <div>
           <h5>Price / night</h5>
           <h5 className="price">
-            <CurrencyRupeeIcon style={{fontSize:"13px"}}/>
-            {}-<CurrencyRupeeIcon style={{fontSize:"13px"}} />
-            {}
+            <CurrencyRupeeIcon style={{ fontSize: "13px" }} />
+            {leftValue}-<CurrencyRupeeIcon style={{ fontSize: "13px" }} />
+            {rightValue}
           </h5>
         </div>
         <Slider
@@ -101,7 +98,7 @@ const HotelFilter = () => {
           value={doubleSlider}
           onChange={handleDoubleSliderChange}
           valueLabelDisplay="auto"
-          defaultValue={[0, 100]}
+          defaultValue={[0, 40000]}
           disableSwap
         />
       </div>
@@ -109,7 +106,7 @@ const HotelFilter = () => {
       <div className="property-type">
         <h5>Property type</h5>
         <div>
-          <div>All</div>
+          <div className="active">All</div>
           <div>Hotel</div>
           <div>House / Apartment</div>
         </div>
@@ -235,23 +232,7 @@ const HotelFilter = () => {
       </div>
       <div className="vr"></div>
 
-      <div className="more-filters">
-        <h5>More filters</h5>
-        <div className="more-filters-dropdown">
-          <h5>Popular filters</h5>
-          {/* <div className="popular filter">
-            
-              {
-                checkList.map((ele)=>(
-                 <Svg icon={ele.icon}/>
-                  
-                )
-                  
-                )
-              }
-          </div> */}
-        </div>
-      </div>
+      <Svg />
     </div>
   );
 };
