@@ -1,6 +1,7 @@
 {
   "hotels": [
     {
+      "id":"1",
       "name": "Sofitel Mumbai BKC",
       "rating": 5,
       "img": [
@@ -22,6 +23,7 @@
         "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/57/00/570005694.jpeg"
       ],
       "about": "Sofitel Mumbai BKC is a five star property situated within the Bandra-Kurla Complex (BKC), one of the city's premier business hubs. With an entire executive floor, it is ideal for business meetings and events, as well as leisure travellers. The 302 rooms in the hotel are sumptuously decorated and have lavish bathrooms with quality fittings. Wi-Fi is complimentary for guests and rooms feature minibars, LCD TVs and 24 hour room service. The hotel is well equipped to handle business events as well as occasions such as weddings. Guests can enjoy leisure facilities such as the pool, the wellness centre or the spa. The hotel’s concierge services can arrange sightseeing and other excursions. The Sofitel Mumbai BKC boasts four haute cuisine restaurants: Jyran (tandoori dining and lounge), Pondicherry Café (all day dining), Tuskers (veg dining and bar) and Artisan (bistro) The hotel is in the middle of Mumbai city's new business hub and just about 1 km from the British Deputy High Commission.",
+      "overallRating":9.5,
       "review": {
         "location": 8.5,
         "room": 9.1,
@@ -113,7 +115,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/626"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"Hotels.com",
           "price":"11,534",
           "freeCancellation":"false",
@@ -159,6 +161,7 @@
       "address": "city center"
     },
     {
+      "id":"2",
       "name": "Sahara Star",
       "rating": 5,
       "img": [
@@ -183,6 +186,7 @@
         "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/11/01/110119254.jpeg"
       ],
       "about": "Offering four food & beverage establishments and hundreds of rooms, Sahara Star is known for its distinctive, star-shaped dome. It houses a 4,000 square foot Marine Aquarium, and has the world's only private dining room within an aquarium. All guest rooms at this hotel are equipped with modern amenities such as flat-screen TVs, motorized curtains, and glass bathrooms. Mood lighting is standard, and luxury suites are available. The hotel's services include airline reservations, babysitting, courier services, currency exchange, and laundry. Guests can enjoy a full gymnasium while at this property, or stroll around the tropical lagoon. The hotel's restaurants include The Earth Plate, which has truly global cuisine. The Ocean private dining room is located within an aquarium and has an impressively large menu that can be personalised. Sahara Star is located just metres from Mumbai's international airport. Juhu Beach is less than five kilometres away. The iconic Gateway of India is 22 kilometres south of this property.",
+      "overallRating":8.3,
       "review": {
         "location": 8.6,
         "room": 8.4,
@@ -267,7 +271,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"makemytrip.com",
           "price":"11,534",
           "freeCancellation":"false",
@@ -313,6 +317,7 @@
       "address": "city center"
     },
     {
+      "id":"3",
       "name": "Hotel Milan International",
       "rating": 3,
       "img": [
@@ -337,6 +342,7 @@
         "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/32/16/321672446.jpeg"
       ],
       "about": "Located in Santa Cruz West of Mumbai, Hotel Milan International hotel is just a ten-minute walk to Santa Cruz train station and within three miles to the University of Mumbai. Free private parking and rooms with Wi-Fi access are offered in this hotel. All rooms are air-conditioned and fitted with private bathrooms with free toiletries. Each comes with an LCD TV and work desk. Some rooms add a mini-fridge, while upgraded rooms feature separate seating areas, wardrobe, and modern glass bathroom. The 24-hour front desk offers concierge service, luggage storage, laundry/ironing service, and tourist assistance. Banquet halls and a business centre are also available on-site. Local Indian cuisine along with authentic Punjab dishes are served at the Spicy Kitchen Restaurant for breakfast, lunch, and dinner. Other dining options are a ten-minute walk away, which include Shamia Restaurant and Three Wise Monkeys Cafe. Hotel Milan International hotel is within three miles to Chhatrapati Shivaji International Airport and the ISKCON Temple.",
+      "overallRating":5.5,
       "review": {
         "location": 6.0,
         "room": 6.0,
@@ -418,7 +424,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"makemytrip.com",
           "price":"1,561",
           "freeCancellation":"false",
@@ -464,6 +470,7 @@
       "address": "city center"
     },
     {
+      "id":"4",
       "name": "Kumkum",
       "rating": 2,
       "img": [
@@ -490,6 +497,7 @@
         "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/27/11/271141074.jpeg"
       ],
       "about": "Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless Internet access and concierge services.For lunch or dinner, stop by Rooftop Cafe, a restaurant that specializes in Indian cuisine. Dining is also available at the coffee shop/café, and 24-hour room service is provided. Cooked-to-order breakfasts are available daily from 6:30 AM to noon for a fee.Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and a 24-hour front desk. A roundtrip airport shuttle and a train station pick-up service are provided for an additional charge.Make yourself at home in one of the 28 air-conditioned guestrooms. Your room comes with a memory foam bed. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers.Distances are displayed to the nearest 0.1 mile and kilometer. Lamington Road - 0.1 km / 0.1 mi Bhatia Hospital - 0.9 km / 0.6 mi Royal Opera House - 1.2 km / 0.7 mi Mani Bhavan Gandhi Museum - 1.3 km / 0.8 mi Chor Bazaar - 1.5 km / 0.9 mi Mohammed Ali Road - 1.5 km / 0.9 mi Cumballa Hill Hospital - 1.6 km / 1 mi Saifee Hospital - 1.6 km / 1 mi Taraporewala Aquarium - 2.2 km / 1.3 mi Mahalaxmi Temple - 2.3 km / 1.4 mi Prince Aly Khan Hospital - 2.4 km / 1.5 mi Kamala Nehru Park - 2.4 km / 1.5 mi Mahalaxmi Racecourse - 2.4 km / 1.5 mi Jaslok Hospital - 2.5 km / 1.5 mi Hanging Gardens - 2.6 km / 1.6 mi The preferred airport for Hotel Kumkum is Chhatrapati Shivaji International Airport (BOM) - 22.1 km / 13.7 mi With a stay at Hotel Kumkum, you'll be centrally located in Mumbai, within a 5-minute drive of Mohammed Ali Road and Haji Ali Dargah. This hotel is 3.6 mi (5.7 km) from Gateway of India and 10.2 mi (16.4 km) from Juhu Beach.Near Mohammed Ali Road",
+      "overallRating":8.5,
       "review": {
         "location": 8.4,
         "room": 7.5,
@@ -571,7 +579,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"goibibo.com",
           "price":"1,836",
           "freeCancellation":"false",
@@ -617,6 +625,7 @@
       "address": "city center"
     },
     {
+      "id":"5",
       "name": "Hotel The Royal Orchid",
       "rating": 4,
       "img": [
@@ -645,6 +654,7 @@
 
       ],
       "about": "Make use of convenient amenities such as complimentary wireless Internet access, tour/ticket assistance, and a banquet hall.Enjoy a meal at Orchids, or stay in and take advantage of the hotel's 24-hour room service. Wrap up your day with a drink at the bar/lounge. Buffet breakfasts are available daily for a fee.Featured amenities include complimentary newspapers in the lobby, dry cleaning/laundry services, and a 24-hour front desk. Free self parking is available onsite.Make yourself at home in one of the 37 guestrooms featuring refrigerators and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Bathrooms have showers and complimentary toiletries. Conveniences include phones, as well as safes and desks.Distances are displayed to the nearest 0.1 mile and kilometer. U.S. Consulate General - 4.7 km / 2.9 mi Phoenix Market City Mall - 6.2 km / 3.8 mi KidZania Mumbai - 6.3 km / 3.9 mi JioGarden - 7.1 km / 4.4 mi Bharat Diamond Bourse - 7.1 km / 4.4 mi R City Mall - 7.8 km / 4.8 mi University of Mumbai - 7.9 km / 4.9 mi P.D. Hinduja Hospital & Medical Research Centre - 9 km / 5.6 mi Powai Lake - 9.3 km / 5.8 mi Shivaji Park - 9.9 km / 6.1 mi Lilavati Hospital - 10.4 km / 6.4 mi Tata Memorial Hospital - 10.6 km / 6.6 mi Linking Road - 10.6 km / 6.6 mi Siddhi Vinayak Temple - 10.8 km / 6.7 mi Hiranandani Business Park - Powai - 11 km / 6.8 mi The nearest major airport is Chhatrapati Shivaji International Airport (BOM) - 9.3 km / 5.8 miLocated in Mumbai, The Royal Orchid is within a 15-minute drive of Juhu Beach and Gateway of India. This hotel is 4 mi (6.4 km) from U.S. Consulate General and 4.4 mi (7.1 km) from JioGarden.Near a train station",
+      "overallRating":8.2,
       "review": {
         "location": 8.5,
         "room": 0,
@@ -726,7 +736,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/452"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"hotels.com",
           "price":"2,576",
           "freeCancellation":"true",
@@ -773,6 +783,7 @@
       "address": "city center"
     },
     {
+      "id":"6",
       "name": "The Lalit New Delhi",
       "rating": 5,
       "img": [
@@ -800,6 +811,7 @@
 
       ],
       "about": "An imposing hi-rise particularly well known for its dining and nightlife, The Lalit New Delhi is located in central Delhi, just one kilometre's walk from the greenery of Central Park. The 461 rooms and suites boast a contemporary design. hardwood floors, and amenities such as large flat-screen TVs, entertainment systems, free Wi-Fi, and minibars. A walk-in closet and work desk allow guests to keep both their clothes and papers in order. Guests here can break a sweat in the gym, enjoy pampering at Rejuve Spa, and feast their eyes on works in Delhi's only hotel art gallery. If none of this appeals, soaking up the sun on the pool terrace or shopping in the luxury arcade also await. One of three restaurants, Baluchi offers Indian curries in a sophisticated venue. The pastry chef at The Lalit Boulangerie creates delectable pastries, and 24/7 Bar mixes drinks without considering the time of day. Delhi's iconic Red Fort is about a six-kilometre drive north of The Lalit New Delhi.",
+      "overallRating":7.4,
       "review": {
         "location": 8.2,
         "room": 8.3,
@@ -881,7 +893,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"agoda.com",
           "price":"3,690",
           "freeCancellation":"true",
@@ -928,6 +940,7 @@
       "address": "city center"
     },
     {
+      "id":"7",
       "name": "The Royal Plaza",
       "rating": 4,
       "img": [
@@ -957,6 +970,7 @@
 
       ],
       "about": "Relax at the full-service spa, where you can enjoy massages. You can take advantage of recreational amenities such as a nightclub, a health club, and an outdoor pool. Additional features at this Edwardian hotel include wireless Internet access (surcharge), concierge services, and a hair salon.Grab a bite at Onyx, one of the hotel's 3 restaurants, or stay in and take advantage of the 24-hour room service. Snacks are also available at the coffee shop/café. Quench your thirst with your favorite drink at the bar/lounge. Continental breakfasts are available daily from 8:00 AM to 10:30 AM for a fee.Featured amenities include limo/town car service, express check-out, and complimentary newspapers in the lobby. Planning an event in New Delhi? This hotel has facilities measuring 2000 square feet (186 square meters), including conference space. A shuttle from the airport to the hotel is provided for a surcharge (available 24 hours), and free valet parking is available onsite.Make yourself at home in one of the 419 guestrooms featuring minibars and LCD televisions. Wireless Internet access (surcharge) keeps you connected, and digital programming is available for your entertainment. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include phones, as well as safes and desks.Distances are displayed to the nearest 0.1 mile and kilometer. Gurudwara Bangla Sahib - 1 km / 0.6 mi Kasturba Gandhi Marg - 1.1 km / 0.7 mi Jantar Mantar - 1.1 km / 0.7 mi National Museum - 1.3 km / 0.8 mi Palika Bazaar - 1.4 km / 0.9 mi Vigyan Bhavan - 1.7 km / 1 mi Parliament of India - 1.7 km / 1 mi India Gate - 1.8 km / 1.1 mi Secretariat Building - 1.9 km / 1.2 mi Gole Market - 2.3 km / 1.4 mi Laxminarayan Temple - 2.3 km / 1.5 mi Supreme Court - 2.6 km / 1.6 mi Lady Hardinge Medical College - 2.6 km / 1.6 mi Delhi High Court - 2.6 km / 1.6 mi Rashtrapati Bhavan - 2.7 km / 1.7 mi The preferred airport for Hotel The Royal Plaza is Indira Gandhi International Airport (DEL) - 18.3 km / 11.4 mi In the heart of New Delhi, Hotel The Royal Plaza is within a 5-minute drive of India Gate and Gurudwara Bangla Sahib. This 4-star hotel is 1.6 mi (2.5 km) from Parliament of India and 1.6 mi (2.6 km) from Supreme Court.Near Gurudwara Bangla Sahib",
+      "overallRating":7.1,
       "review": {
         "location": 8.4,
         "room": 5.9,
@@ -1038,7 +1052,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/2192"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"agoda.com",
           "price":"3,690",
           "freeCancellation":"true",
@@ -1085,6 +1099,7 @@
       "address": "city center"
     },
     {
+      "id":"8",
       "name": "FabHotel Marble Arch Karol Bagh",
       "rating": 3,
       "img": [
@@ -1112,6 +1127,7 @@
 
       ],
       "about": "",
+      "overallRating":7.9,
       "review": {
         "location": 8.4,
         "room": 7.8,
@@ -1193,7 +1209,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"trip.com",
           "price":"2,092",
           "freeCancellation":"false",
@@ -1240,6 +1256,7 @@
       "address": "city center"
     },
     {
+      "id":"9",
       "name": "Red Fox Delhi Airport",
       "rating": 4,
       "img": [
@@ -1262,6 +1279,7 @@
 
       ],
       "about": "Red Fox Delhi Airport is a four-star hotel situated just three kilometres from the Indira Gandhi International Airport and offers guests an airport shuttle service. Rooms are equipped with Wi-Fi connectivity, a mini-bar, flat-screen television and a desk. Tea and coffee making facilities and a safe are also offered. At the Red Fox Delhi Airport hotel, car rental and excursions can be arranged with the assistance of the on-site tours desk. Furthermore, complimentary parking, a meeting centre and a fitness centre are also featured. Dining options range from in-room breakfast to two restaurant dining options; namely à la carte and buffet style dining. Upon request, special diet menus are also available. To take in the historical sites and landmarks, guests can visit the Malai Mandir temples and, on the opposite side of the spectrum, guests wanting to enjoy a light-hearted day of fun can visit iSkate, the indoor ice-rink nearby.",
+      "overallRating":8.1,
       "review": {
         "location": 8.8,
         "room": 8.0,
@@ -1343,7 +1361,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"makemytrip.com",
           "price":"3,211",
           "freeCancellation":"false",
@@ -1390,6 +1408,7 @@
       "address": "city center"
     },
     {
+      "id":"10",
       "name": "Radisson Blu Marina Hotel Connaught Place",
       "rating": 4,
       "img": [
@@ -1412,6 +1431,7 @@
 
       ],
       "about": "Situated just 4.2 miles from Akshardham Temple, Radisson Blu Marina Hotel Connaught Place Hotel features 24-hour room service as well as a range of meeting facilities. Each air conditioned room features free high-speed Wi-Fi access as well as an electronic safe. Guests who are staying in the suites can enjoy a few extras such as a one way shuttle to the airport as well as a 30 minute massage. Radisson Blu Marina Hotel Connaught Place Hotel features Sohum Spa that offers a range of soothing massages. Guests can also keep in shape at the on-site fitness centre or enjoy a drink at The Connaught, a popular Whiskey bar. The Great Kabab Factory offers guests Indian cuisine, while Fifty9, also located on-site, features sumptuous Thai food. This hotel is situated in the heart of the business district, while the Airport Express Line Metro Station is just across the street.",
+      "overallRating":7.6,
       "review": {
         "location": 8.5,
         "room": 7.3,
@@ -1493,7 +1513,7 @@
           "logo":"https://imgcy.trivago.com/e_trim/f_auto,dpr_2,bo_2px_solid_transparent,c_pad,h_24,q_auto,w_80/partnerlogos-s3/395"
         },
         {
-          "title":"Our lowest price",
+          "title":"Our lowest price 1",
           "site":"agoda.com",
           "price":"7,394",
           "freeCancellation":"false",
