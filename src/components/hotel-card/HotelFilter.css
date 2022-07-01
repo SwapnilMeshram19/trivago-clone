@@ -1,6 +1,6 @@
 .filters {
-  width: 70%;
-  margin: auto;
+  width: 75%;
+ margin-left: 16%;
   margin-top: 10px;
   padding: 5px;
 }
@@ -23,6 +23,9 @@
   /* border-right: 1px solid rgb(219,221,225); */
   border-radius: 10px;
 }
+.price-filter>div>h5{
+  margin: 0px;
+}
 .price-filter > div > * {
   display: inline-block;
   vertical-align: middle;
@@ -42,6 +45,10 @@
 /* Property Type */
 .property-type {
   padding: 10px 15px;
+}
+
+.property-type>h5{
+  margin:0px;
 }
 
 .property-type > div {
@@ -82,6 +89,7 @@
   background-color: rgb(249, 249, 249);
 }
 .guest-rating > h5 {
+  margin: 0PX;
   margin-bottom: 15px;
 }
 .guest-review-dropdown {
@@ -112,6 +120,7 @@
   margin-left: 10px;
 }
 .review-filter > h5 {
+  margin: 0px;
   padding-left: 10px;
 }
 .very-good-review > * {
@@ -125,9 +134,10 @@
   font-weight: 700;
   height: 1.125rem;
   width: 2rem;
-  padding: 1px 6px;
+  padding: 1px 3px;
   color: white;
   background-color: rgb(2, 128, 0);
+  text-align: center;
 }
 
 .select-filter {
@@ -159,6 +169,7 @@
   background-color: rgb(249, 249, 249);
 }
 .location-filter > h5 {
+  margin: 0px;
   margin-bottom: 15px;
 }
 
@@ -181,9 +192,11 @@
   width: 100%;
 }
 .location-dropdown > h4 {
+  margin: 0px;
   margin-bottom: 15px;
 }
 .location-dropdown > h5 {
+  margin: 0px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -194,6 +207,9 @@
 .slider-text > * {
   display: inline-block;
   vertical-align: middle;
+}
+.slider-text>h5{
+  margin: 0px;
 }
 
 .slider-text > span {
@@ -214,6 +230,7 @@
   cursor: pointer;
 }
 .more-filters > h5 {
+  margin: 0px;
   margin-bottom: 15px;
 }
 .more-filters:hover {

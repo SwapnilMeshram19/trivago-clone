@@ -7,36 +7,22 @@ import MenuItem from "@mui/material/MenuItem";
 import SearchIcon from "@mui/icons-material/Search";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
-import { Button, InputAdornment, TextField } from "@mui/material";
+import { Button, DialogActions, InputAdornment, TextField } from "@mui/material";
 import { Slider } from "@mui/material";
 import styled from "@emotion/styled";
 import Svg from "./Svg";
 import Gym from "./icons/gym.svg";
+import HotelCard from "./HotelCard";
 
-const HotelFilter = () => {
+const HotelFilter = ({data}) => {
+
+  const [filteredData,setFilteredData]=useState(data)
   const [review, setReview] = useState("All");
   const [cityLocation, setCityLocation] = useState("City center");
   const [dist, setDist] = useState(20);
   const [doubleSlider, setdoubleSlider] = useState([0, 100]);
   const [leftValue, setLeftValue] = useState(2000);
   const [rightValue, setRightValue] = useState(42000);
-  // const checkList = [
-  //   { title: "Free cancellation", icon: "Cancellation", id: "1" },
-  //   { title: "Free breakfast", icon: "Breakfast", id: "2" },
-  //   { title: "Pool", icon: "Pool", id: "3" },
-  //   { title: "Beach", icon: "Beach", id: "4" },
-  //   { title: "WiFi", icon: "Wifi", id: "5" },
-  //   { title: "Car park", icon: "CarPark", id: "6" },
-  //   { title: "Air conditioning", icon: "AirConditioner", id: "7" },
-  //   { title: "Restaurant", icon: "Restaurant", id: "8" },
-  //   { title: "Pet friendly", icon: "PetFriendly", id: "9" },
-  //   { title: "Family friendly", icon: "FamilyFriendly", id: "10" },
-  //   { title: "Pay at property", icon: "PayAtProperty", id: "11" },
-  //   { title: "Whirlpool/Hot tub", icon: "HotTub", id: "12" },
-  //   { title: "Spa", icon: "Spa", id: "13" },
-  //   { title: "Gym", icon: "Gym", id: "14" },
-  //   { title: "Wheelchair accessible", icon: "WheelChair", id: "5" },
-  // ];
   const mumbaiLocations = [
     { location: "City center", id: "1" },
     { location: "Andheri E", id: "2" },
@@ -65,6 +51,7 @@ const HotelFilter = () => {
 
   const handleReviewChange = (value) => {
     setReview(value);
+    console.log(review)
   };
 
   const handleLocationChange = (event) => {
@@ -83,6 +70,7 @@ const HotelFilter = () => {
   console.log(review);
 
   return (
+    <div>
     <div className="filters">
       <div className="price-filter">
         <div>
@@ -122,21 +110,21 @@ const HotelFilter = () => {
         <div className="guest-review-dropdown">
           <div
             className="excellent-review review-filter"
-            onClick={() => setReview("8.5+")}
+            onClick={() => setReview("8.5")}
           >
             <span className="review-span">8.5</span>
             <h5>Excellent</h5>
           </div>
           <div
             className="very-good-review review-filter"
-            onClick={() => setReview("8+")}
+            onClick={() => setReview("8")}
           >
             <span className="review-span">8.0</span>
             <h5>Excellent</h5>
           </div>
           <div
             className="good-review review-filter"
-            onClick={() => setReview("7.5+")}
+            onClick={() => setReview("7.5")}
           >
             <span className="review-span">7.5</span>
             <h5>Excellent</h5>
@@ -233,7 +221,16 @@ const HotelFilter = () => {
       <div className="vr"></div>
 
       <Svg />
-    </div>
+
+      </div>
+
+        {
+          filteredData.map((hotel)=><HotelCard hotel={hotel} key={hotel.id}/>)          
+
+        }
+      
+</div>
+    
   );
 };
 

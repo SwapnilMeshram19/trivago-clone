@@ -12,6 +12,8 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const HotelCard = ({ hotel }) => {
+
+  
   const recommended = hotel.deals.find((obj) => {
     return obj.title == "Recommended deal";
   });
@@ -22,8 +24,8 @@ const HotelCard = ({ hotel }) => {
   console.log(recommended);
   return (
     <div className="hotel-card">
-      <Card sx={{ maxWidth: "70%", marginBottom: "12px" }}>
-        <div className="card">
+      <Card sx={{ maxWidth: "70%",margin:"auto", marginBottom: "12px"}}>
+        <div className="card-container">
           <img src={hotel.img[0]} />
 
           <div className="detail">
@@ -103,6 +105,7 @@ const HotelCard = ({ hotel }) => {
                           textTransform: "none",
                           fontWeight: "700",
                           float: "right",
+                          bottom:"10px"
                         }}
                         variant="contained"
                         endIcon={<ChevronRightIcon />}
