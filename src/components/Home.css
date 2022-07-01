@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif;
 }
+.ChangeBackground{
+    background-color: white;
+}
 .below_Navbar_logo_container{
   display: flex;
   width: 48vw;
@@ -36,6 +39,8 @@
     border-radius: .5vw;
 }
 .type_box{
+    font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif;
+    font-size: .9vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 23vw;
@@ -66,6 +71,7 @@
     width: 100%;
     padding: 1.7vh;
     border: none;
+    outline: none;
 }
 .type_box_sibling > div >div{
     display: flex;
@@ -122,8 +128,21 @@
     margin-top: 15vh;
 }
 .topDestinationcarouselBox{
-    border: 1px solid red;
-    padding: 23vh;
+    /* border: 1px solid red; */
+    padding: 2vh 23vh 10vh 23vh;
+}
+.topDestinationSibling{
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-top: 3vh;
+    color: gray;
+}
+hr{
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 1vh;
 }
 .descreptionBox{
     display: grid;
@@ -145,21 +164,23 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 14vw;
+    padding-right: 8vw;
     font-family: Proxima Vara,Arial,Helvetica,Sans,Sans-Serif;
     font-size: 1vw;
     margin-top: 8vh;
     margin-bottom: 5vh;
+   
 }
 .CitiesNAmeBox > div >div{
-    width: 22vw;
+    width: 35vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 1.5vh;
+    font-size: .9vw;
 }
 .CitiesNAmeBox > div >div {
-    height: 19vh;
+    height: 18vh;
     overflow-y: scroll;
     /* border: 1px solid red; */
 }
@@ -170,4 +191,54 @@
 }
 .CitiesNAmeBox > div >div > div> ul > li:hover {
     text-decoration: underline;
+}
+.CarouselImage > div  {
+    border-radius: 1vw;
+    height: 100vh;
+    padding: 15vh;
+    /* border: 1px solid red; */
+}
+.CarouselImage > div  >img{
+    height: 50vh;
+}
+.Calendar_Box{
+    position: fixed;
+    display: flex;
+    top: 45vh;
+    left: 30vw;
+}
+.popUpBox{
+    border: 1px solid #cecece;
+    background-color: white;
+    width: 20vw;
+    box-shadow: 1px 0px 38px 0px rgba(0,0,0,0.75);
+    box-sizing: 1vw;
+    position: fixed;
+    top: 22vw;
+    left: 60vw;
+}
+.popUpBox > div{
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.popUpBox > div > div{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 7vw;
+    justify-content: space-between;
+
+}
+/* .popUpBox > div :nth-child(1){
+    width: 10vw;
+}
+.popUpBox > div :nth-child(2){
+    width: 6vw;
+} */
+.popUpBox > div > div >div>input{
+    width: 1.5vw;
+    border: 1px solid black;
+    border-radius: .2vw;
+    text-align: center;
 }
