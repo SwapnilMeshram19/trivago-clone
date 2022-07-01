@@ -8,8 +8,11 @@ import Calendar from 'react-calendar'
 import Popup from './Popup';
 import { getCity,getCountry } from '../Redux/CarouselData/action.js'
 import { store } from '../Redux/store';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const Navigate=useNavigate()
+const[citylist,setCityList]=useState()
     const {data}=useSelector((store)=>store.AllData)
 //   console.log(data)
 
@@ -160,7 +163,7 @@ const Home = () => {
                     </div>
                     <div className="type_box_sibling">
                         <div>
-                            <select name="" id="">
+                            <select name="" id="" onChange={( e )=>setCityList(e.target.value)}>
                                 <option value="">Select</option>
                                 <option value="Delhi">Delhi</option>
                                 <option value="Chennai">Chennai</option>
@@ -191,7 +194,7 @@ const Home = () => {
                                 <p>{Room}Room</p>
                                 <p>{Number_Of_Guests}Guests</p>
                             </div>
-                            <div ><button >Search</button></div>
+                            <div ><button onClick={()=>Navigate(`/main/${citylist}`)}>Search</button></div>
                            </div>
                         </div>
 

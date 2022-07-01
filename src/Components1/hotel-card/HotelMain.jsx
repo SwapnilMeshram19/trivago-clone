@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import HotelCard from "./HotelCard";
 import { useSelector, useDispatch } from "react-redux";
-import { get } from "../../Redux/action";
+// import { get } from "../../Redux/action";
 // F:\trivago clone\trivago-clone\src
 
 const HotelMain = () => {
   const { data } = useSelector((store) => store.CityandCountry);
   const dispatch = useDispatch();
-  useEffect(() => {
-    get(dispatch);
-  }, []);
+  // useEffect(() => {
+  //   get(dispatch);
+  // }, []);
 
   return (
     <div style={{backgroundColor:"rgb(243,244,245)"}}>
