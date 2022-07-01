@@ -6,7 +6,7 @@ import { get } from '../Redux/allData/action'
 import Carousel from './Carousel';
 import Calendar from 'react-calendar'
 import Popup from './Popup';
-import { getCity,getCountry } from '../Redux/CarouselData/action'
+import { getCity,getCountry } from '../Redux/CarouselData/action.js'
 import { store } from '../Redux/store';
 
 const Home = () => {
@@ -376,7 +376,7 @@ const Home = () => {
     )
 }
 
-export default Home
+export  {Home}
 
 
 
