@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { Card, CardMedia } from "@mui/material";
 
 import Rater from "react-rater";
@@ -10,8 +10,10 @@ import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import Button from "@mui/material/Button";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+// import { ViewDealNavbar} from '../../Components1/ViewDealNavbar'
 
 const HotelCard = ({ hotel }) => {
+  const [show,setShow]=useState(false)
   const recommended = hotel.deals.find((obj) => {
     return obj.title == "Recommended deal";
   });
@@ -22,7 +24,7 @@ const HotelCard = ({ hotel }) => {
   console.log(recommended);
   return (
     <div className="hotel-card">
-      <Card sx={{ maxWidth: "70%", marginBottom: "12px" }}>
+      <Card sx={{ maxWidth: "70%", margin:'auto', marginBottom: "12px" }}>
         <div className="card">
           <img src={hotel.img[0]} />
 
@@ -38,7 +40,9 @@ const HotelCard = ({ hotel }) => {
 
               <span>&nbsp;Hotel</span>
             </div>
-            <div class="location">
+            <div class="location" >
+            {/* onClick={()=>setShow(!show)}
+              {show ? <ViewDealNavbar/> :''} */}
               <LocationOnOutlinedIcon
                 style={{ color: "#565656", fontSize: "20px" }}
               />
@@ -106,6 +110,7 @@ const HotelCard = ({ hotel }) => {
                         }}
                         variant="contained"
                         endIcon={<ChevronRightIcon />}
+                        onClick={()=>window.location.href=`https://www.${recommended.site}`}
                       >
                         View Deal
                       </Button>

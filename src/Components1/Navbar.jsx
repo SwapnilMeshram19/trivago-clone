@@ -3,12 +3,17 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 // import styled from 'styled-components'
 import './NavbarFooter.css';
+import Login from './Log/Login'
+// import Login from './Components1/Log/login'
 
 
 
 function Navbar() {
     const [menue, setMenue] = useState(false)
+    const name=localStorage.getItem("activeuser")
+    // const name=1
     console.log(menue)
+    
     return (
         < div className='navbar'>
 
@@ -18,7 +23,7 @@ function Navbar() {
                     <Link to="/" ><img className='NavbarImage' src="https://tse2.mm.bing.net/th?id=OIP.JSGmiGzRmDowBYk0KLyJAwHaCO&pid=Api&P=0&w=499&h=149" alt="" /></Link>
                 </div>
                 <div className="NavbarSecondChild">
-                    <div> <Link to="login" >Log in</Link></div>
+                    <div> {name === null ? <Link to="/Login" >Log in</Link> : <Link to="/Login/accountmain" >{name}</Link>}</div>
                     <div onMouseEnter={() => setMenue(true)} onMouseLeave={() => setMenue(false)}><p>Menue </p></div>
                     {menue ?( <div className="navbarDropdownBox" onMouseEnter={() => setMenue(true)} onMouseLeave={() => setMenue(false)}>
             <a href=""><p>Recently View</p></a>

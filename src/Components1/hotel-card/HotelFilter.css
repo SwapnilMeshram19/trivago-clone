@@ -244,9 +244,9 @@
 
 .svg {
   display: grid;
-  grid-template-columns: auto 60% auto;
+  grid-template-columns: auto 50% auto;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 1vw;
   color: rgb(106, 106, 106);
 }
 
