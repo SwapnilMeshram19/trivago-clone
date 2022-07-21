@@ -9,7 +9,7 @@ function About(){
 
 
     const getdata=()=>{
-        fetch('http://localhost:3000/hotels1')
+        fetch('http://localhost:3000/hotels')
         .then((res) => res.json())
         .then((json) => setViewData(json))
       

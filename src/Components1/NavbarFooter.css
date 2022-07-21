@@ -158,3 +158,18 @@
     width: 5vw;
     background-color: red;
   }
+.gallery{
+/* width:20px; */
+
+color:rgb(53, 51, 49);
+text-decoration: none;
+}
+.NavbarFirstChild{
+  display: flex;
+  /* border: 1px solid green; */
+  width: 12vw;
+  justify-content: space-between;
+  align-items: center;
+  color:antiquewhite;
+  text-decoration: none;
+}

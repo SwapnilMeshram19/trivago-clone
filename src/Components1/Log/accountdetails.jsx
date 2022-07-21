@@ -20,14 +20,14 @@ const Accountdetails = () => {
             name: firstname + " " + lastname
         }
 
-        fetch(`http://localhost:3001/users`)
+        fetch(`https://trivango.herokuapp.com/users`)
             .then((res) => res.json())
             .then((res) => {
                 res.forEach(function (dt) {
                     if (dt.email === user) {
                         // console.log("found");
                         let id = dt.id;
-                        fetch(`http://localhost:3001/users/${id}`, {
+                        fetch(`https://trivango.herokuapp.com/users/${id}`, {
                             method: "PATCH",
                             body: JSON.stringify(userData),
                             headers: {
@@ -55,7 +55,7 @@ const Accountdetails = () => {
             password: newpassword
         }
 
-        fetch(`http://localhost:3001/users`)
+        fetch(`https://trivango.herokuapp.com/users`)
             .then((res) => res.json())
             .then((res) => {
                 res.forEach(function (dt) {
@@ -63,7 +63,7 @@ const Accountdetails = () => {
                         // console.log("found");
                         if (oldpassword === dt.password) {
                             let id = dt.id;
-                            fetch(`http://localhost:3001/users/${id}`, {
+                            fetch(`https://trivango.herokuapp.com/${id}`, {
                                 method: "PATCH",
                                 body: JSON.stringify(userData),
                                 headers: {

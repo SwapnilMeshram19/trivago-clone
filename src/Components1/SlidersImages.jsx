@@ -1,7 +1,7 @@
 import React from "react";
 import  images  from "./images";
 import './SliderImages.css'
-function Sliders(){
+function SlidersImages(){
     const [selectImg,setSelectImg] = React.useState(images[0])
 
     return(
@@ -26,4 +26,4 @@ function Sliders(){
         // </div>
     )
 }
-export { Sliders }
+export { SlidersImages }

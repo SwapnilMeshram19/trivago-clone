@@ -21,6 +21,9 @@ function Navbar() {
                 <div className="NavbarFirstChild">
 
                     <Link to="/" ><img className='NavbarImage' src="https://tse2.mm.bing.net/th?id=OIP.JSGmiGzRmDowBYk0KLyJAwHaCO&pid=Api&P=0&w=499&h=149" alt="" /></Link>
+                    <Link className = "gallery" to = "/SlidersImages">Gallery</Link>
+                    {/* <Link className = "ViewDealNavbar" to = "/ViewDealNavbar">Deal</Link> */}
+
                 </div>
                 <div className="NavbarSecondChild">
                     <div> {name === null ? <Link to="/Login" >Log in</Link> : <Link to="/Login/accountmain" >{name}</Link>}</div>
@@ -58,6 +61,7 @@ function Navbar() {
                             <option>HKD</option>
                         </select>
                     </div>
+
                 </div>
         </ div>
     )
