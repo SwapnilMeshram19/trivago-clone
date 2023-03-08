@@ -9,7 +9,7 @@ function Photos(){
 
 
     const getdata=()=>{
-        fetch('http://localhost:3000/hotels1')
+        fetch('https://trivagoserver.onrender.com/hotels1')
         .then((res) => res.json())
         .then((json) => setViewData(json))
       

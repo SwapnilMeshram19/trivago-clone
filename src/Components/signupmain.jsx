@@ -30,7 +30,7 @@ const Signupmain = () => {
   const postdata = ()=>{
     
 
-    fetch(`http://localhost:3001/users`)
+    fetch(`https://trivagoserver.onrender.com/users`)
       .then((res)=> res.json())
       .then((res)=> {
         res.forEach(function(dt){
@@ -55,7 +55,7 @@ const Signupmain = () => {
             previousbookings:""
           };
       
-          fetch(`http://localhost:3001/users`,{
+          fetch(`https://trivagoserver.onrender.com/users`,{
               method:"POST",
               body:JSON.stringify(user),
               headers:{

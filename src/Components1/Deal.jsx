@@ -9,7 +9,7 @@ function Deal(){
 
 
     const getdata=()=>{
-        fetch('http://localhost:3000/hotels')
+        fetch('https://trivagoserver.onrender.com/hotels')
         .then((res) => res.json())
         .then((json) => setViewData(json))
       
