@@ -194,7 +194,7 @@ const[citylist,setCityList]=useState()
                                 <p>{Room}Room</p>
                                 <p>{Number_Of_Guests}Guests</p>
                             </div>
-                            <div ><button onClick={()=>Navigate(`/main/${citylist}`)}>Search</button></div>
+                            <div ><button onClick={()=>Navigate(`//${citylist}`)}>Search</button></div>
                            </div>
                         </div>
 
@@ -220,6 +220,15 @@ const[citylist,setCityList]=useState()
             <div className='topDestination' ><b>These top destinations are just a click away</b></div>
             <div className='topDestinationSibling' ><div><b onClick={setCityData}>Top Cities</b></div><div><b onClick={setCountryData}>Top Destination</b></div></div>
             <hr />
+            <div id = "homeImg">
+             <div><img className='first' src = 'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/31/79/317933614.jpeg'/></div>
+              <div><img className = 'first'src =        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/57/00/570005694.jpeg" /></div>
+             <div><img className = 'first' src = "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/56/87/568718606.jpeg"/></div>
+             <div><img className='first' src = 'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/72/22/722213212.jpeg'/></div>
+             <div><img className='first' src = 'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/31/79/317933614.jpeg'/></div>
+             {/* <div><img className='first' src = 'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partnerimages/31/79/317933614.jpeg'/></div> */}
+
+            </div>
             <div className='topDestinationcarouselBox'>
                   
              <Carousel  data={city}/>

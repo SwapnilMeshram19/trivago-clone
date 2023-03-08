@@ -7,6 +7,18 @@
 .ChangeBackground{
     background-color: white;
 }
+#homeImg{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width:90%;
+    margin-left:15%;
+    margin-right:-15%;
+    grid-gap:3%;
+}
+.first{
+    width:90%;
+    
+}
 .below_Navbar_logo_container{
   display: flex;
   width: 46vw;

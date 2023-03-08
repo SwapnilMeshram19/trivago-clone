@@ -182,7 +182,7 @@ const Home = () => {
             <hr />
             <div className='topDestinationcarouselBox'>
                   
-             <Carousel data={data} />
+             {/* <Carousel data={data} /> */}
             </div>
 
             <div className="descreptionBox">
